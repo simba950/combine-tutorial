@@ -27,6 +27,8 @@
 		B7A6DE5B2D8FEEDD0031F5D5 /* combine+tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "combine+tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A6DE6B2D8FEEDE0031F5D5 /* combine+tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "combine+tutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A6DE752D8FEEDE0031F5D5 /* combine+tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "combine+tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A6DE982D8FF0DA0031F5D5 /* publisher.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = publisher.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B7A6DE992D8FF0F70031F5D5 /* AnyPublisher.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyPublisher.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +77,7 @@
 		B7A6DE522D8FEEDD0031F5D5 = {
 			isa = PBXGroup;
 			children = (
+				B7A6DE972D8FF0C50031F5D5 /* _Playground */,
 				B7A6DE5D2D8FEEDD0031F5D5 /* combine+tutorial */,
 				B7A6DE6E2D8FEEDE0031F5D5 /* combine+tutorialTests */,
 				B7A6DE782D8FEEDE0031F5D5 /* combine+tutorialUITests */,
@@ -90,6 +93,15 @@
 				B7A6DE752D8FEEDE0031F5D5 /* combine+tutorialUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A6DE972D8FF0C50031F5D5 /* _Playground */ = {
+			isa = PBXGroup;
+			children = (
+				B7A6DE982D8FF0DA0031F5D5 /* publisher.playground */,
+				B7A6DE992D8FF0F70031F5D5 /* AnyPublisher.playground */,
+			);
+			path = _Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
